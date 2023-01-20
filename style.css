@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;   
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
 }
 
 .container {
@@ -61,6 +62,8 @@ h1 {
     background-size: cover;
     border-radius: 4px;
     box-shadow: 2px 1px 3px rgba(0,0,0,0.8);
+    opacity: 1;
+    transition: .4s;
 }
 
 h4 {
@@ -92,7 +95,7 @@ label {
     padding: 10px;
     margin: 5px;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
 .input::placeholder {
@@ -113,4 +116,6 @@ label {
 
 .active.popup-container{
     visibility: hidden;
+    opacity: 0;
+    top: 12%;
 }
