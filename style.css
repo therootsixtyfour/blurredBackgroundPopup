@@ -40,7 +40,7 @@ h1 {
     background: darkgrey;
 }
 
-.active {
+.active.container {
     filter: blur(2px) brightness(.9);
 }
 
